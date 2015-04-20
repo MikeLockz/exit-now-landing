@@ -17,7 +17,7 @@ $headers = 'From: ' . $_POST["name"] . '<' . $_POST["email"] . '>' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
   
 //Put your own email address here    
-  mail( "kvodes@gmail.com", $_POST['subject'], $_POST['message'], $headers );
+  mail( "mlockwitz@gmail.com", $_POST['subject'], $_POST['message'], $headers );
 }
 
 ?>
