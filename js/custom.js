@@ -298,7 +298,7 @@ $("#subscribe-form").submit(function (e) {
             url: "subscribe.php",
             data: dataString,
             success: function () {
-                $('.subscribe-message').text('Thank you! We will notify you once it launch.');
+                $('.subscribe-message').text('Thank you! We will notify you once we launch.');
                 $('.subscribe-message').fadeOut();
                 $('.subscribe-message').fadeIn();
             }
